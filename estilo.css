@@ -1,0 +1,17 @@
+section#leftsec{
+    background-color: rgb(0, 0, 0);
+    width: 15%;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 10%;
+    position: fixed;
+    
+}
+input.opcoes_menu{
+    color: white;
+    background-color: transparent;
+    border-color: transparent;
+    font: normal 15px arial;
+    border-radius: 5px;
+    
+}
