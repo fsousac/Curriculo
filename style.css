@@ -27,7 +27,7 @@ input.opcoes_menu{
     margin-top: -15px;
     width: 98%;
     border-radius: 15px 15px 0px 0px;
-    filter: drop-shadow(2px 2px 2px rgb(41, 41, 41));
+    filter: drop-shadow(2px 2px 3px rgb(41, 41, 41));
     
 }
 #bola1{
@@ -36,8 +36,8 @@ input.opcoes_menu{
     width: 15px;
     height: 15px;
     position: absolute;
-    margin-left: 70%;
-    margin-top: 1.2px;
+    margin-left: 150px;
+    margin-top: 1px;
     filter: drop-shadow(1px 1px 1px rgb(41, 41, 41));
 }
 #bola2{
@@ -46,8 +46,8 @@ input.opcoes_menu{
     width: 15px;
     height: 15px;
     position: absolute;
-    margin-left: 79%;
-    margin-top: 1.2px;
+    margin-left: 170px;
+    margin-top: 1px;
     filter: drop-shadow(1px 1px 1px rgb(41, 41, 41));
 
 }
@@ -57,8 +57,8 @@ input.opcoes_menu{
     width: 15px;
     height: 15px;
     position: absolute;
-    margin-left: 87.5%;
-    margin-top: 1.2px;
+    margin-left: 190px;
+    margin-top: 1px;
     filter: drop-shadow(1px 1px 1px rgb(41, 41, 41));
  
 }
