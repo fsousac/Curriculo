@@ -17,60 +17,37 @@ input.opcoes_menu{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font: normal 20px 'Trebuchet MS';
     border-radius: 10px;
-<<<<<<< HEAD
+    text-align: left;
+    width: 100%;
+    height: 100%;
 
 }
-#wintab{
-    position: absolute;
-<<<<<<< HEAD
-    height: 15%;
-    width: 100%;
-    margin: -10px;
-}
-=======
-    padding: 2px;
-    height: 14%;
-    margin-left: -10px;
-    margin-top: -15px;
-    width: 98%;
-    border-radius: 15px 15px 0px 0px;
-    filter: drop-shadow(2px 2px 2px rgb(41, 41, 41));
-    
-}
 #bola1{
-    background-color: yellow;
+    background-color: red;
     border-radius: 50%;
-    width: 15px;
-    height: 15px;
+    width: 7%;
+    height: 9%;
     position: absolute;
-    margin-left: 70%;
-    margin-top: 1.2px;
     filter: drop-shadow(1px 1px 1px rgb(41, 41, 41));
 }
 #bola2{
-    background-color: green;
+    background-color: yellow;
     border-radius: 50%;
-    width: 15px;
-    height: 15px;
+    width: 7%;
+    height: 9%;
     position: absolute;
-    margin-left: 79%;
-    margin-top: 1.2px;
+    margin-left: 11%;
     filter: drop-shadow(1px 1px 1px rgb(41, 41, 41));
 
 }
 #bola3{
-    background-color: red;
+    background-color: green;
     border-radius: 50%;
-    width: 15px;
-    height: 15px;
+    width: 7%;
+    height: 9%;
     position: absolute;
-    margin-left: 87.5%;
-    margin-top: 1.2px;
+    margin-left: 22%;
     filter: drop-shadow(1px 1px 1px rgb(41, 41, 41));
  
 }
->>>>>>> parent of 360c7cc (Pouca coisa mudou na hotbar)
-=======
-    
-}
->>>>>>> parent of 7e7f878 (Introdução da hotbar na leftsec)
+
