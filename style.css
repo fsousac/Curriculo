@@ -8,6 +8,7 @@ section#leftsec{
     border-radius: 15px;
     margin-top: 10%;
     position: fixed;
+    
 }
 input.opcoes_menu{
     color: white;
@@ -16,6 +17,7 @@ input.opcoes_menu{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font: normal 20px 'Trebuchet MS';
     border-radius: 10px;
+<<<<<<< HEAD
 
 }
 #wintab{
@@ -68,3 +70,7 @@ input.opcoes_menu{
  
 }
 >>>>>>> parent of 360c7cc (Pouca coisa mudou na hotbar)
+=======
+    
+}
+>>>>>>> parent of 7e7f878 (Introdução da hotbar na leftsec)
