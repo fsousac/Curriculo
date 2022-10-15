@@ -5,7 +5,7 @@ section#leftsec{
     background-color: rgb(48, 48, 48);
     width: 15%;
     padding: 10px;
-    border-radius: 15px;
+    border-radius: 20px;
     margin-top: 10%;
     position: fixed;
     
@@ -21,32 +21,32 @@ input.opcoes_menu{
     max-width: 100%;
 
 }
-#bola1{
+div#bola1{
     background-color: red;
     border-radius: 50%;
     width: 7%;
     height: 9%;
     position: absolute;
-    filter: drop-shadow(1px 1px 1px rgb(41, 41, 41));
+    filter: drop-shadow(1px 1px 2px rgba(0, 0, 0, 0.5));
 }
-#bola2{
+div#bola2{
     background-color: yellow;
     border-radius: 50%;
     width: 7%;
     height: 9%;
     position: absolute;
     margin-left: 11%;
-    filter: drop-shadow(1px 1px 1px rgb(41, 41, 41));
+    filter: drop-shadow(1px 1px 2px rgba(0, 0, 0, 0.5));
 
 }
-#bola3{
+div#bola3{
     background-color: green;
     border-radius: 50%;
     width: 7%;
     height: 9%;
     position: absolute;
     margin-left: 22%;
-    filter: drop-shadow(1px 1px 1px rgb(41, 41, 41));
+    filter: drop-shadow(1px 1px 2px rgba(0, 0, 0, 0.5));
  
 }
 
