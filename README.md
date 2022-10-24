@@ -1,2 +1,3 @@
-# Currículo
- Currículo online usando HTML, CSS e JavaScript
+# **Currículo**
+***
+ Visite meu currículo clicando [**aqui!**](https://fsousac.github.io/Curriculo/)
