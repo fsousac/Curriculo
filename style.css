@@ -7,7 +7,7 @@ section#leftsec{
     padding: 10px;
     border-radius: 20px;
     margin-top: 10%;
-    position: absolute;
+    position: fixed;
 
     
 }
@@ -59,7 +59,6 @@ h1.mainhead{
 }
 #mainsec{
     width: 80%;
-    height: 80%;
     position: absolute;
     margin-left: 15%;
     margin-top: 3%;
@@ -98,4 +97,94 @@ div#bar{
 }
 div#content{
     margin-top: 2%;
+}
+h2.habilities{
+    color: white;
+    font-family: trebuchet MS;
+    text-align: center;
+    text-weight: bold;
+}
+.pie{
+    color: white;
+
+}
+@keyframes p {
+    from{--p:0}
+  }
+  @property --p{
+    syntax: '<number>';
+    inherits: true;
+    initial-value: 0;
+  }
+  .pie {
+    --p:20;
+    --b:22px;
+    --c:darkred;
+    --w:150px;
+    
+    width:var(--w);
+    aspect-ratio:1;
+    position:relative;
+    display:inline-grid;
+    margin:5px;
+    place-content:center;
+    font-size:25px;
+    font-weight:bold;
+    font-family: 'Trebuchet MS';
+  }
+  .pie:before,
+  .pie:after {
+    content:"";
+    position:absolute;
+    border-radius:50%;;
+  }
+  .pie:before {
+    inset:0;
+    background:
+      radial-gradient(farthest-side,var(--c) 98%,#0000) top/var(--b) var(--b) no-repeat,
+      conic-gradient(var(--c) calc(var(--p)*1%),#0000 0);
+    -webkit-mask:radial-gradient(farthest-side,#0000 calc(99% - var(--b)),#000 calc(100% - var(--b)));
+            mask:radial-gradient(farthest-side,#0000 calc(99% - var(--b)),#000 calc(100% - var(--b)));
+  }
+  .pie:after {
+    inset:calc(50% - var(--b)/2);
+    background:var(--c);
+    transform:rotate(calc(var(--p)*3.6deg)) translateY(calc(50% - var(--w)/2));
+  }
+  .animate {
+    animation:p 1s .5s both;
+  }
+.lblcircle{
+    color: white;
+    background-color: transparent;
+    font-family: Trebuchet MS;
+    width: fit-content;
+    display: inline-flex;
+    
+}
+.one{
+    position: absolute;
+    margin-left: -11.8%;
+    margin-top: 15%;
+    text-align: center;
+    
+}
+.two{
+    position: absolute;
+    margin-left: -10%;
+    margin-top: 15%;
+    text-align: center;
+    
+}
+.three{
+    position: absolute;
+    margin-left: -10%;
+    margin-top: 15%;
+    text-align: center;
+}
+.four{
+    position: absolute;
+    margin-left: -12.5%;
+    margin-top: 15%;
+    text-align: center;
 }
