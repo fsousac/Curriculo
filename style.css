@@ -101,7 +101,9 @@ div#content{
 h2.habilities{
     color: white;
     font-family: trebuchet MS;
-    text-align: center;
+    text-align: left;
+    display: list-item;
+    margin-left: 5%;
     text-weight: bold;
 }
 .pie{
