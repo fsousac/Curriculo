@@ -12,3 +12,6 @@ function sair(id){
     opcao.style.transform = 'translateX(0) scale(1)'
     opcao.style.backgroundColor = 'transparent'
 }
+function jumpto(id){
+    window.scrollTo(0, document.getElementById(id).offsetTop)
+}
